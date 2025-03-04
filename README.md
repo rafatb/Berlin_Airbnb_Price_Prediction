@@ -19,7 +19,7 @@ The dataset has 66833 rows and 48 columns, this is only 2019 data, reduced the d
 
 
 # Project Report: Predictive Price Modeling for Airbnb listings
-The project aimed at predicting the price of an Airbnb listing given a number of features. The project involved exploratory data analysis, data pre-processing, feature selection, Model Fitting, Model Comparison and deploying the containerised Webapp on AWS using CI/CD Pipeline.
+The project aimed at predicting the price of an Airbnb listing given a number of features. The project involved exploratory data analysis, data pre-processing, feature selection, Model Fitting, Model Comparison .
 
 ## Project Goals and Objectives
 <div class="row">
