@@ -35,27 +35,25 @@ The project aimed at predicting the price of an Airbnb listing given a number of
 
 #### Task: 
 
-1. Check basic info of dataset
-<br><br>
-2. Deal with Outlinear and Missing Value
+1. Check / prepare basic info of dataset
 
-        a. Exclude outliner from price data
-        b. deal with missing values of features
-<br>
-3. perform Exploratory Data Analysis (EDA)
+     drop not useful data
 
-        a. Location vs Price
-        b. room and property type vs Price
-        c. Price Differences on a minimum_nights, number_of_reviews, reviews_per_month, and availability_365
-        d. Correlations between reviews
+        a. drop all redundant/ duplicates data.
+        b. drop all the column that contains same value , these data is not useful.
+        c. drop columns that almost not containing any data.
+        d. drop all the data the clearly will not help me during this jurney , like (Urls , reviewer  id , reviewer name ... ).
 
-<br>
-4. Data Preprocessing on features
+      Reduce the following wide catoigores
 
-        a. Transfer 'latitude' and 'longitude' to the 'distance' from center
-        b. Transfer 'interaction', and 'instant_bookable' data into bool
-        c. drop the columns that is not helpful for prediction
-        d. convert all string columns into categorical or numerical data 
-        e. One-hot encoding on categorical features
+        a. Host Response Rate Grouped\
+        b. Overall Rating
+        c. Neighbourhood Grouped
+        d. property_types
+        e. Postal Code
 
-<br>
+      adding new data based on the existing data
+
+        a. Calculate the distance of each listing from Berlin's center and join each listing to a group. Each group will contain listings that are within a specific distance from the center
+        b. drop the following feature after using them to generate new one {'Host Since', 'neighbourhood', 'Latitude', 'Longitude', 'Property Type', 'Postal Code','Comments',Host Response Rate', 'Overall Rating','Instant Bookable', 'Is Superhost','Is Exact Location','Destance From Center Cleansed'}
+
