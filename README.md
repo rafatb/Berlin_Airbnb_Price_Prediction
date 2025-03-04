@@ -46,7 +46,7 @@ The project aimed at predicting the price of an Airbnb listing given a number of
 
       Reduce the following wide catoigores
 
-        a. Host Response Rate Grouped\
+        a. Host Response Rate Grouped
         b. Overall Rating
         c. Neighbourhood Grouped
         d. property_types
