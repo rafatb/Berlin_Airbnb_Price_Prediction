@@ -20,3 +20,9 @@ References:
 ## Dataset Overview:
 The Berlin Airbnb dataset contains over 450,000 apartment reviews for 23,000 different listings from the years 2009 to 2018.
 The dataset includes features that describe each listing, such as location, neighborhood, number of beds, and more. We can observe that each apartment has tens or even hundreds of reviews. Therefore, it is necessary to clean, fix, and aggregate these reviews into a single entry per apartment
+
+## Project Goals:
+
+The goal is to predict the price of an Airbnb listing in Berlin based on various features such as location, number of beds, bathrooms, and other characteristics. The project will explore the relationship between these features through exploratory data analysis, data preprocessing, feature selection, model fitting, and model comparison, ultimately using them to predict the price.
+
+Success is defined as the ability to predict the listing price in Berlin Airbnb as accurately as possible based on different features.
