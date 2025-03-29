@@ -100,4 +100,9 @@ so  with these above models we reached that the following features will be selec
 -  'Property Type',
 -  'Neighborhood Group',
 -  'Room Type',
--  'Distance From Center' 
+-  'Distance From Center'
+
+# **Regressor Models and Hyperparameter Finetuning**
+
+Various regression models, including Linear Regression, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, SVM, and XGBoost, were trained to Listing price GBM outperformed all other models, showing the lowest MAE and RMSLE. SVM had higher errors, and AdaBoost performed the worst. • RandomizedSearchCV was employed to search for the best hyperparameters. RandomForestRegressor showed better improvements in MAE and RMSE compared to compared to others  with 4.73% improvement.
+
