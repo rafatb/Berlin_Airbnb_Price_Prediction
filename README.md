@@ -57,3 +57,17 @@ In this stage, we accomplished the following:
 -   Identified missing values and removed empty features or features with more than 60% missing values.
     
 -   Performing data imputation using KNN.
+
+# Feature Engineering:
+After cleaning and filling the missing data , in this stage we will enrich the data with relevant information that will affect the prediction model.
+
+- draw the Berlin listing map  , 
+![Berlin Listings Map](https://github.com/rafatb/Berlin_Airbnb_Price_Prediction/blob/main/files/berlin-maps.png)
+
+- expose the most used words from the comment feature 
+![Berlin words](https://github.com/rafatb/Berlin_Airbnb_Price_Prediction/blob/main/files/berlin-words.png)
+
+- calculate List distance from Berlin center and divide Berlin to circles each circle have specific distance from the center like (2km , 4km , 6km .....) , this new feature maybe will have an impact on the target Price.
+- get Listing years old - how much this Listing is in the Airbnb.
+- reduce categories , in this case we dropped Neighborhood because it have too much categories and keep the  Neighborhood Group because its with few categories.   
+-  
