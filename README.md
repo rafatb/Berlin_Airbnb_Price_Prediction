@@ -104,5 +104,13 @@ so  with these above models we reached that the following features will be selec
 
 # **Regressor Models and Hyperparameter Finetuning**
 
-Various regression models, including Linear Regression, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, SVM, and XGBoost, were trained to Listing price GBM outperformed all other models, showing the lowest MAE and RMSLE. SVM had higher errors, and AdaBoost performed the worst. • RandomizedSearchCV was employed to search for the best hyperparameters. RandomForestRegressor showed better improvements in MAE and RMSE compared to compared to others  with 4.73% improvement.
+Various regression models, including Linear Regression, Decision Tree, Random Forest, AdaBoost, Gradient Boosting, SVM, and XGBoost, were trained to Listing price GradientBoostingRegressor outperformed all other models, showing the lowest MAE and RMSLE. SVM had higher errors, and AdaBoost performed the worst. 
+- RandomizedSearchCV was employed to search for the best hyperparameters. for RandomForestRegressor  showed better improvements in MAE and RMSE compared  to others  with 4.73% improvement.
+- RandomizedSearchCV was employed to search for the best hyperparameters for XGboost  showed better improvements in MAE and RMSE compared to compared to others  with 1.30% improvement.
+
+# Conclusion
+XGBoost has better improvements in MAE and RMSE and RMSLE compared to Random Forest Regressor and GradientBoostingRegressor
+
+# Deployment 
+for deployment , there is a need to play with the model parameters and improve it's accuracy 
 
