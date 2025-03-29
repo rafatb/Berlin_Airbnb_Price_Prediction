@@ -70,4 +70,34 @@ After cleaning and filling the missing data , in this stage we will enrich the d
 - calculate List distance from Berlin center and divide Berlin to circles each circle have specific distance from the center like (2km , 4km , 6km .....) , this new feature maybe will have an impact on the target Price.
 - get Listing years old - how much this Listing is in the Airbnb.
 - reduce categories , in this case we dropped Neighborhood because it have too much categories and keep the  Neighborhood Group because its with few categories.   
--  
+
+
+# Feature Selection
+In this phase we going to select the features that will participate in the prediction model.
+- for this we need to delete more redundant features  like 'Distance From Center Grouped','Longitude', 'Latitude','Postal Code'
+- one hot encoding , doing label encoding for all the categories.
+
+we used multiple model to evaluate and decide which features we will choose finally, that model that used are:
+- Lasso
+- Random Forest 
+- Gradient Boosting
+- Svm
+- Ridge
+
+so  with these above models we reached that the following features will be selected :
+- 'Overall Rating',
+-  'Checkin Rating',
+-  'Communication Rating',
+-  'Location Rating',
+-  'Value Rating',
+-  'Reviews',
+-  'Bedrooms',
+-  'Beds',
+-  'Guests Included',
+-  'Min Nights',
+-  'Instant Bookable',
+-  'Is Exact Location',
+-  'Property Type',
+-  'Neighborhood Group',
+-  'Room Type',
+-  'Distance From Center' 
